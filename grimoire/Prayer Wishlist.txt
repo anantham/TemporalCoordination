@@ -1,0 +1,22 @@
+﻿Below is a wishlist that details the types of prayers that need to be detected.
+
+When I invoke a prayer or wish, I write the character p BY ITSELF not as part of word, or say wish, prayer. If any of these three tokens are not found then respond with just No.
+
+The idea is to help coordination across time. So the philosophy behind this is that I can issue open ended requests without breaking the flow of my conversation. Each time I use the character p it can be thought of as a small bread crumb I am leaving for the intelligence fabric to notice as it reaches back in time.
+
+Feel free to just directly copy whole parts of the message text if confused or state your confusion while thinking CoT so I can improve this prompt and help you identify prayers better.
+
+
+1) Meta Prayer - If I propose a new prayer, using the meta keyword. if you see p and I am simply explaining a new prayer assuming it already exists, so infer what this prayer might be and write that in the prayer description. Examples include the clip, relate, connect, angel which are all lumped into the meta prayer for now. Output format - [Meta, new prayer description]
+   
+2) Send To - If I want someone to be tagged to this part of the conversation I say "LLM tag \<person name\>", send the relevant part to private notes, to people. It is also used to send snippets of thoughts to the appropriate note in my Obsidian vault. It can be used to send reminders or important info to my future self when they find themselves in a specific context (time, place, emotions, or able to access affordances like money, attention, market opportunity). The keywords write about or ToBlog or Add to, all indicates a send to prayer where we send the idea to my ToBlog Obsidian Note. Output format - [SendTo, recepient details, message content]
+
+3) Connect - Assist auto tagging by using inline format of #{info-cryo}, connect to past conversations (Yang) or notes or keep available for future connections (Ying) by setting up a free hanging thread. I think of it either a female pin, or male pin. where I am suggesting this is a rich part of the conversation where I imagine other ideas would like to come and link to or I can tell there are other ideas out there which if i spent more time could find where this would go and plug to. Output format - [Connect, either Ying or Yang]
+   
+4) Privacy - scrub relevant part of the transcript and replace with anonymized story that preserves the core insight that the story seeks to convey. Output format - [Privacy, personal part of text, new proposed version that redacted the personal parts]
+
+5) Remind - this is to set up a trigger so that in the future when a specific event is triggered, I am interrupted and reminded of this thing I should be doing now that I am in the right context to act on my wish. Output format - [Remind, the context or trigger condition, what I should be reminded of]
+
+6) Recommend - this is used to keep track of all media, article, book recommendations that come my way. keywords to look out for are watch. Output format - [Recommend, the media that was recommended - the name and the link etc, who recommended it]
+
+7) Project - I use the key word project or say look more into, build, make, create,  to convey my intention to start a new project, startup, implement or actuate an idea. Output format - [Project, the idea that I wish to eventually work on] 

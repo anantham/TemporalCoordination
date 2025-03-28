@@ -1,0 +1,14 @@
+# Ignore all files in any directory named 'archive'
+**/archive/**
+
+.csv
+
+# Logs
+*.log
+
+# lifelogs
+*.json
+*.last_sync
+
+# metadata files created by macOS Finder to store information about folder views
+*.DS_Store
