@@ -605,7 +605,7 @@ class DailyJournalManager:
             return False
             
     def run_limitless_sync(self):
-        """Run the Limitless sync script from the lifelog directory.
+        """Run the Limitless sync script from the grimoire/lifelog directory.
         
         Returns:
             bool: True if successful, False otherwise
@@ -614,7 +614,7 @@ class DailyJournalManager:
             # Get the path to the lifelog sync script
             script_dir = os.path.dirname(os.path.abspath(__file__))
             repo_root = os.path.dirname(script_dir)  # Go up one level to get repository root
-            lifelog_script = os.path.join(repo_root, "lifelog", "limitless_sync.py")
+            lifelog_script = os.path.join(repo_root, "grimoire", "lifelog", "limitless_sync.py")
             
             # Check if the script exists
             if not os.path.exists(lifelog_script):

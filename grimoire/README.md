@@ -271,3 +271,9 @@ The script now has improved handling of various model response formats:
 - Scheduled message processing
 - Advanced content analysis
 - Custom command handling
+
+### Current Issues
+
+1) How to ensure local cache of messages are upto date with telegram without triggering telegram's [log you out from all devices](https://github.com/LonamiWebs/Telethon/issues/4051#issuecomment-1461514786) protection mechanism. 
+
+
